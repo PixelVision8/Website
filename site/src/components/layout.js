@@ -41,7 +41,7 @@ const Layout = ({ children }) => (
           <Header siteTitle={data.site.siteMetadata.title} />
 
           <main className="flex-grow">
-            <div className="mx-auto py-8">{children}</div>
+            <div className="mx-auto ">{children}</div>
           </main>
 
           <Footer />

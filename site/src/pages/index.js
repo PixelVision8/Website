@@ -7,11 +7,13 @@ import Tabs from '../components/tabs';
 import Features from '../components/features';
 import Timeline from '../components/timeline';
 import Cta from '../components/cta';
+import Message from '../components/message';
 
 const IndexPage = () => (
   <Layout>
     
     {/*  Page sections */}
+    <Message />
     <HeroHome />
     <Stats />
     <Process />
