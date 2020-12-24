@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Pixel Vision 8 - a next generation 8-bit fantasy game console',
+    title: 'Pixel Vision 8 - A Next Gen 8-Bit Fantasy Game Console',
   },
   plugins: [
     {

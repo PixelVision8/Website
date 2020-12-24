@@ -9,6 +9,8 @@ import Footer from './footer'
 
 import '../css/styles.scss'
 
+var description = "Pixel Vision 8 is the first customizable 8-bit fantasy console. Don't just make games, design your fantasy console specs to match actual hardware, or create something new. It's perfect for game jams, prototyping ideas, and having fun!";
+
 const Layout = ({ children }) => (
 
   
@@ -29,10 +31,16 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: description },
+            { name: 'keywords', content: 'Fantasy Game Console, Pixel Visoin 8, PV8, 8-Bit, Game Engine' },
           ]}
         >
+
+          <meta name='twitter:card' content='summary_large_image'/>
+          <meta name="twitter:description" content={description}/>
+          <meta name="twitter:title" content="Pixel Vision 8"/>
+          <meta name='twitter:image:src' content="src/images/social-card-image.png"/>
+          
           <html lang="en" />
         </Helmet>
 

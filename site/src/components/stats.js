@@ -23,7 +23,7 @@ function Stats() {
             </div>
             {/* 4rd item */}
             <div className="py-6 md:py-0 md:px-8 border-r border-dashed border-palette-6">
-              <div className="text-4xl font-bold leading-tight tracking-tighter text-palette-2 mb-2" data-aos="fade-up">4.2k+</div>
+              <div className="text-4xl font-bold leading-tight tracking-tighter text-palette-2 mb-2" data-aos="fade-up">4.3k+</div>
               <div className="h3 text-palette-15 md:pb-4" data-aos="fade-up" data-aos-delay="200">Twitter</div>
               <div className="flex justify-center" data-aos="fade-up" data-aos-delay="200">
                 <a className="btn text-palette-15 bg-palette-5 hover:bg-palette-6" href="https://twitter.com/pixelvision8">Follow</a>
@@ -39,7 +39,7 @@ function Stats() {
             </div>
             {/* 2nd item */}
             <div className="py-6 md:py-0 md:px-8">
-              <div className="text-4xl font-bold leading-tight tracking-tighter text-palette-9 mb-2" data-aos="fade-up">550+</div>
+              <div className="text-4xl font-bold leading-tight tracking-tighter text-palette-9 mb-2" data-aos="fade-up">640+</div>
               <div className="h3 text-palette-15 md:pb-4" data-aos="fade-up" data-aos-delay="200">Github</div>
               <div className="flex justify-center" data-aos="fade-up" data-aos-delay="200">
                 <a className="btn text-palette-15 bg-palette-5 hover:bg-palette-6" href="https://github.com/pixelvision8/pixelvision8">Star</a>
