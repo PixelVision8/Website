@@ -36,6 +36,8 @@ const Layout = ({ children }) => (
           ]}
         >
 
+          <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
+          
           <meta name='twitter:card' content='summary_large_image'/>
           <meta name="twitter:description" content={description}/>
           <meta name="twitter:title" content="Pixel Vision 8"/>
