@@ -35,15 +35,14 @@ const Layout = ({ children }) => (
             { name: 'keywords', content: 'Fantasy Game Console, Pixel Visoin 8, PV8, 8-Bit, Game Engine' },
           ]}
         >
-
+          
           <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
-
           <meta name='twitter:card' content='summary_large_image'/>
           <meta name="twitter:description" content={description}/>
           <meta name="twitter:title" content="Pixel Vision 8"/>
           <meta name='twitter:image:src' content="https://pixelvision8.github.io/PixelVision8Website/images/social-card-image.png"/>
-          
           <html lang="en" />
+
         </Helmet>
 
         <div className="bg-palette-0 text-palette-15 flex flex-col min-h-screen overflow-hidden">
