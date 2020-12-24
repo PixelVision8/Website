@@ -13,6 +13,15 @@ module.exports = {
       },
       
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "UA-115153273-1", // Google Analytics / GA
+        ],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     'gatsby-plugin-react-helmet',
@@ -24,5 +33,5 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: "/PixelVision8Website"
+  pathPrefix: "/PixelVision8Website",
 }
