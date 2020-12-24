@@ -39,7 +39,7 @@ const Layout = ({ children }) => (
           <meta name='twitter:card' content='summary_large_image'/>
           <meta name="twitter:description" content={description}/>
           <meta name="twitter:title" content="Pixel Vision 8"/>
-          <meta name='twitter:image:src' content="src/images/social-card-image.png"/>
+          <meta name='twitter:image:src' content="images/social-card-image.png"/>
           
           <html lang="en" />
         </Helmet>
