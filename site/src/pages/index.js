@@ -13,7 +13,7 @@ const IndexPage = () => (
   <Layout>
     
     {/*  Page sections */}
-    <Message />
+    {/* <Message /> */}
     <HeroHome />
     <Stats />
     <Process />
