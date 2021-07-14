@@ -21,7 +21,7 @@ const Logo = ({
       <h1 className="m-0">
         <Link to="/">
           <Image
-            src={require('./../images/logo.svg')}
+            src={require('./../images/navbar/pv8-logo.svg')}
             alt="Open"
             width={48}
             height={48}
