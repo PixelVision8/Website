@@ -33,5 +33,5 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: "/PixelVision8Website",
+  pathPrefix: "/Website",
 }
