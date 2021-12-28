@@ -80,7 +80,7 @@ function Timeline() {
                   <div className="absolute left-0 w-2 h-2 bg-palette-0 border-4 box-content border-palette-13 rounded-full ml-20 transform -translate-x-1/2" aria-hidden="true"></div>
                   <h4 className="h4 text-palette-13">Portable</h4>
                 </div>
-                <p className="text-lg text-palette-13">With a finalized build, work will begine on making PV8 work on consoles, mobile, and ARM SOC based computers.</p>
+                <p className="text-lg text-palette-13">With a finalized build, work will begin on making PV8 work on consoles, mobile, and ARM SOC based computers.</p>
               </div>
             </div>
 
